@@ -1,90 +1,87 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🐉 Kali-Themed Portfolio Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+A multipage personal portfolio built with **HTML5, CSS3, and JavaScript**, styled after the look and feel of **Kali Linux**.  
+The site uses a **grid background**, **neon hacker-style effects**, and **terminal-inspired animations** to present information in a unique and engaging way.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+## 🌍 Live Demo
+[Live Website Link](#) (to be updated after deployment on GitHub Pages / Netlify / Vercel)
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## 📂 Project Structure
 
-Before deployment, refactor your project to follow production-friendly practices:
+portfolio-kali/
+│── index.html # Home page with terminal whoami effect
+│── about.html # About page with profile info
+│── projects.html # Showcase of projects in glowing cards with screenshots
+│── skills.html # Skills page with terminal cat skills.txt effect
+│── contact.html # Contact page with terminal cat contact.txt + form
+│
+│── css/
+│ └── style.css # Grid background, terminal theme, neon styling
+│
+│── js/
+│ └── script.js # Terminal typing effects, form validation, interactivity
+│
+│── images/
+│ ├── profile.jpg # Profile picture
+│ ├── project1.png # Roofa.co.ke screenshot
+│ ├── project2.png # SFH Solution Ltd branding
+│ ├── project3.png # Cybersecurity technical assessments
+│ ├── project4.png # Hackathon project
+│ ├── project5.png # Security dashboard
+│ └── logo.png # Optional logo/icon
+│
+└── README.md
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
 
 ---
 
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+## ✨ Features
+- **Grid background** with parallax effect
+- **Terminal-inspired intro** (`whoami`, `echo`)
+- **Project cards** with neon hover glow + image previews
+- **Skills list** typed out as `cat skills.txt`
+- **Contact page** with `cat contact.txt` output + interactive form
+- **Form validation** with terminal-style success/error messages
 
 ---
 
-## Outcome
+## 🛠️ Tech Stack
+- **HTML5** – semantic structure
+- **CSS3** – grid background, responsive layout, neon styling
+- **JavaScript** – typing animations, interactivity, validation
+- **Deployment Options** – GitHub Pages, Netlify, or Vercel
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](images/profile.jpg)
+
+### 👤 About Page
+![About Page](images/profile.jpg)
+
+### 🛠 Projects Page
+![Projects Page](images/project1.png)
+![Projects Page](images/project2.png)
+![Projects Page](images/project3.png)
+
+### ⚙️ Skills Page
+![Skills Page](images/project4.png)
+
+### 📩 Contact Page
+![Contact Page](images/project5.png)
+
+---
+
+## 👨‍💻 Author
+**Kelvin Wanyama**  
+Cybersecurity Analyst | Web Developer | Tech Explorer  
+
+- GitHub: [Leitearts](https://github.com/Leitearts)  
+- LinkedIn: [Kelvin Wanyama](https://linkedin.com/in/kelvin-wanyama)  
+- Email: [kelvinwanyama25@gmail.com](mailto:kelvinwanyama25@gmail.com) 
